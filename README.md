@@ -4,6 +4,8 @@
 
 Веб-интерфейс для отправки и получения текстовых сообщений в MAX через [GREEN-API](https://green-api.com/max). Внешний вид чата повторяет web.max.ru.
 
+Демо: https://lyoraeth.github.io/greenapi-max-chat/
+
 ## Возможности
 
 Сценарий из задания:
