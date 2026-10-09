@@ -1,0 +1,92 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@theme inline {
+  --font-heading: var(--font-sans);
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Roboto', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-ground: var(--ground);
+  --color-cell-hover: var(--cell-hover);
+  --color-cell-selected: var(--cell-selected);
+  --color-cell-pressed: var(--cell-pressed);
+  --color-capsule: var(--capsule);
+  --color-tertiary: var(--text-tertiary);
+  --color-divider: var(--divider);
+  --color-pattern: var(--pattern);
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 20px;
+}
+
+:root {
+  color-scheme: dark;
+
+  --background: #17181c;
+  --foreground: #fff;
+  --surface: #0f0f12;
+  --ground: #141414;
+  --card: #25262d;
+  --card-foreground: #fff;
+  --popover: #1e1f24;
+  --popover-foreground: #fff;
+  --primary: #007aff;
+  --primary-foreground: #fff;
+  --secondary: #434455;
+  --secondary-foreground: #fff;
+  --muted: #ffffff17;
+  --muted-foreground: #fffc;
+  --accent: #32343d;
+  --accent-foreground: #fff;
+  --destructive: #ce4257;
+  --border: #ffffff1f;
+  --divider: #ffffff0f;
+  --input: #ffffff17;
+  --ring: #007aff;
+  --cell-hover: #32343d;
+  --cell-pressed: #1f2026;
+  --cell-selected: #2c2d37;
+  --capsule: #282c42b2;
+  --bubble-incoming: linear-gradient(239deg, #3b3f5e 0%, #373a4e 50%, #32343d 100%);
+  --bubble-outgoing: linear-gradient(239deg, #8849b4 0%, #735acd 50%, #5d6ae5 100%);
+  --text-tertiary: #ffffffa3;
+  --pattern: #505bc74d;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html,
+  body {
+    @apply h-full;
+  }
+  #root {
+    /* dvh учитывает сворачивающуюся адресную строку мобильного браузера */
+    height: 100dvh;
+  }
+  body {
+    @apply bg-background font-sans text-foreground antialiased;
+    letter-spacing: 0.15px;
+  }
+}
