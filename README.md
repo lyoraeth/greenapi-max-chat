@@ -92,3 +92,10 @@ React 19, TypeScript, Vite, Tailwind CSS, Shadcn/ui, Vitest.
 | Фоновый узор чата | обои Telegram из набора [«32 Telegram SVG Wallpapers»](https://www.figma.com/community/file/1262473551582577153/32-telegram-svg-wallpapers) (Ellen Milien, Figma Community) |
 | Иконки | [Lucide](https://lucide.dev), лицензия ISC; отметки статуса сообщений нарисованы отдельно |
 | Компоненты кнопки, поля ввода и диалога | [shadcn/ui](https://ui.shadcn.com) на [Base UI](https://base-ui.com), лицензия MIT |
+
+## Лицензия
+
+Код опубликован для ознакомления в рамках тестового задания, права на
+повторное использование не предоставляются. Сторонние материалы
+(фоновый узор, иконки, компоненты) принадлежат их авторам и
+распространяются на их условиях.
