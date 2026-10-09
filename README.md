@@ -6,6 +6,12 @@
 
 Демо: https://lyoraeth.github.io/greenapi-max-chat/
 
+![Запись работы приложения](docs/demo.gif)
+
+| Вход | Новый чат | Чат |
+|---|---|---|
+| ![Экран входа](docs/login.png) | ![Диалог нового чата](docs/new-chat.png) | ![Переписка](docs/chat.png) |
+
 ## Возможности
 
 Сценарий из задания:
